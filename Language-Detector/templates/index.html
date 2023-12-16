@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Detection</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Language Detection</h1>
+    <form action="/detect" method="post">
+        <textarea name="text" rows="5" cols="50"></textarea><br>
+        <input type="submit" value="Detect Language">
+    </form>
+</body>
+</html>
